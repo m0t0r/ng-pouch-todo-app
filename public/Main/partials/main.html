@@ -8,18 +8,18 @@
             <div class="lead">My To-Do list:</div>
             <ul ng-repeat="task in tasks">
                 <li>
-                    {{task.name}} <div class="btn btn-sm btn-success" ng-click="remove(task._id, task._rev)" type="submit">Done</div>
+                    {{task.name}} <div class="btn-left btn btn-sm btn-success" ng-click="remove(task._id, task._rev)" type="submit"><span class="glyphicon glyphicon-ok"></span></div>
                 </li>
             </ul>
         <div ng-hide="tasks.length">There are no tasks so far...</div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-3">
             <div class="lead">
                 To-Do list controls
             </div>
             <form class="form" id="todoForm">
                 <div class="form-group">
-                    <input type="text" name="task" ng-model="task" class="form-control" placeholder="New task..."/>
+                    <input type="text" name="task" ng-model="task" class="form-control" placeholder="New task..." required/>
                 </div>
                 <button type="submit" class="btn btn-primary" ng-click="create(task)">Add task</button>
             </form>

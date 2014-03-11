@@ -21,8 +21,6 @@ angular.module('todoApp').factory('PouchDbApi', function($q, $rootScope, Config)
         }
     })
 
-
-
     return {
         create: function(data){
             var defer = $q.defer();
