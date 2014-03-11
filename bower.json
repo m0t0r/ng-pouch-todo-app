@@ -19,5 +19,12 @@
     "bootstrap": "~3.1.1",
     "angular": "~1.2.14",
     "angular-route": "~1.2.14"
+  },
+  "resolutions": {
+    "angular": "1.2.15-build.2399+sha.ca4ddfa"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.14",
+    "sinon": "~1.9.0"
   }
 }

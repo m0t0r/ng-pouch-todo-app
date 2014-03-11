@@ -1,0 +1,32 @@
+{
+  "name": "ng-pouch",
+  "version": "0.0.0",
+  "description": "A simple to-do app based on AngularJS and PouchDB with sync to IrisCouch service",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/m0t0r/ng-pouch-todo-app.git"
+  },
+  "keywords": [
+    "angularjs",
+    "pouchdb",
+    "app"
+  ],
+  "author": "Vitaly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m0t0r/ng-pouch-todo-app/issues"
+  },
+  "engines":{
+    "node":"0.10.x"
+  },
+  "homepage": "https://github.com/m0t0r/ng-pouch-todo-app",
+  "devDependencies": {
+    "karma": "^0.12.0",
+    "karma-chrome-launcher": "^0.1.2",
+    "karma-jasmine": "^0.1.5"
+  }
+}
