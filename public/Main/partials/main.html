@@ -1,0 +1,32 @@
+<div class="container">
+    <div class="page-header">
+        <h1 >To-Do App</h1>
+        <small class="text-muted">AngularJS and PouchDb app</small>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="lead">My To-Do list:</div>
+            <ul ng-repeat="task in tasks">
+                <li>
+                    {{task.name}} <div class="btn btn-sm btn-success" ng-click="remove(task._id, task._rev)" type="submit">Done</div>
+                </li>
+            </ul>
+        <div ng-hide="tasks.length">There are no tasks so far...</div>
+        </div>
+        <div class="col-md-6">
+            <div class="lead">
+                To-Do list controls
+            </div>
+            <form class="form" id="todoForm">
+                <div class="form-group">
+                    <input type="text" name="task" ng-model="task" class="form-control" placeholder="New task..."/>
+                </div>
+                <button type="submit" class="btn btn-primary" ng-click="create(task)">Add task</button>
+            </form>
+
+
+        </div>
+    </div>
+
+
+</div>

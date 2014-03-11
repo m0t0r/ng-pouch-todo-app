@@ -1,0 +1,23 @@
+{
+  "name": "ng-pouch",
+  "version": "0.0.0",
+  "authors": [
+    "Vitaly <motor.kodlife@gmail.com>"
+  ],
+  "description": "A simple to-do app with AngularJS and PouchDB",
+  "main": "index.html",
+  "keywords": [
+    "angularjs",
+    "pouchdb",
+    "to-do",
+    "app",
+    "app"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~3.1.1",
+    "angular": "~1.2.14",
+    "angular-route": "~1.2.14"
+  }
+}
