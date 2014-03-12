@@ -4,7 +4,7 @@
   "authors": [
     "Vitaly <motor.kodlife@gmail.com>"
   ],
-  "description": "A simple to-do app with AngularJS and PouchDB",
+  "description": "A simple to-do app based on AngularJS and PouchDB which syncs with IrisCouch service",
   "main": "index.html",
   "keywords": [
     "angularjs",
@@ -20,11 +20,7 @@
     "angular": "~1.2.14",
     "angular-route": "~1.2.14"
   },
-  "resolutions": {
-    "angular": "1.2.15-build.2399+sha.ca4ddfa"
-  },
   "devDependencies": {
-    "angular-mocks": "~1.2.14",
-    "sinon": "~1.9.0"
+    "angular-mocks": "~1.2.14"
   }
 }

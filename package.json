@@ -1,7 +1,7 @@
 {
   "name": "ng-pouch",
   "version": "0.0.0",
-  "description": "A simple to-do app based on AngularJS and PouchDB with sync to IrisCouch service",
+  "description": "A simple to-do app based on AngularJS and PouchDB which syncs with IrisCouch service",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
